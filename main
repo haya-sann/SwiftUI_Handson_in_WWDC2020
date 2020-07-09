@@ -1,0 +1,29 @@
+import SwiftUI
+import PlaygroundSupport
+
+
+struct Preview: View {
+    @State var progress = 0.25
+    var body: some View{
+        VStack(spacing:30){
+            ProgressView(progress)
+                .environment(\.colorScheme, .light)
+            ProgressView(progress)
+                .environment(\.colorScheme, .dark)
+            Button(action: increment){
+                
+                Text("実績向上")
+            }
+        }
+    .padding(100)
+    .background(Color(UIColor
+    .secondarySystemBackground))
+    }
+    func increment(){
+        withAnimation{
+            self.progress += 0.25
+        }
+    }
+}
+    
+PlaygroundPage.current.setLiveView(Preview())
