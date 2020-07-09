@@ -6,3 +6,9 @@ Swift愛好会で解説したビデオの最終ソースコード
 
 ファイルは二つあります。
 メインになるものとViewの振舞いを記述したProgressiveViewの二つ。
+
+AppleのWWDC 2020で公開されたハンズオン形式のレクチャーはこちら。
+https://developer.apple.com/videos/play/wwdc2020/10643/
+
+セッションビデオには完全なソースコードの説明がなかったので補足です。
+
